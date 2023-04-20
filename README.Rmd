@@ -1,6 +1,7 @@
 ---
 output: github_document
 name: ""
+title: ""
 ---
 
 # geomarker.io <img src='geomarker_io_logo.svg' align="right" height="148.5" />
