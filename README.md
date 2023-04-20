@@ -1,5 +1,5 @@
 
-# geomarker.io <img src='geomarker_io_logo.svg' align="right" height="148.5" /></a>
+# geomarker.io <img src='geomarker_io_logo.svg' align="right" height="148.5" />
 
 ## 🌐 Resources
 
