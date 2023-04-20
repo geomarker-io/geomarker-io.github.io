@@ -1,0 +1,78 @@
+---
+output: github_document
+---
+
+# geomarker.io <img src='geomarker_io_logo.svg' align="right" height="148.5" /></a>
+
+```{r echo = F, message = F, warning = F}
+library(dplyr)
+library(purrr)
+
+make_repo_md <- function(geomarker_io_repo) {
+  gh_info <- gh::gh("GET /repos/geomarker-io/{repo}", repo = geomarker_io_repo)
+  gh_info$display_url <- with(gh_info, ifelse(homepage == "", html_url, homepage))
+  glue::glue_data(gh_info, "[`{name}`]({display_url}): {description}", .na="")
+}
+```
+
+```{r echo = F}
+repos <- list(
+  resources = c(
+    "geomarkers",
+    "codec"
+  ),
+  data = c(
+    "hh_acs_measures",
+    "harmonized_historical_census_data",
+    "tract_indices",
+    "dep_index",
+    "hamilton_landcover",
+    "hamilton_drivetime",
+    "hamilton_traffic",
+    "hamilton_crime_risk",
+    "hamilton_property_code_enforcement",
+    "crime_incidents",
+    "shotspotter"
+    ## "housing_infractions",
+    ),
+  ## dashboards = c(
+  ##   "odh_predicting_lead_risk",
+  ##   "covid_testing_locations",
+  ##   "covid_resource_access",
+  ##   "pm_cv_accuracy",
+  ##   "riseup_dashboard",
+  ##   "community_table_dashboard",
+  ##   "safe_dasbhoard"
+  ##   ),
+  r_packages = c(
+    "cincy",
+    "parcel",
+    "s3",
+    "zctaDB",
+    "cogr"
+  )
+)
+```
+
+## 🌐 Resources
+
+```{r echo = F, results = "asis"}
+map_chr(repos$resources, make_repo_md) |>
+  cat(sep = "\n\n")
+```
+
+[`degauss`](https://degauss.org): Decentralized Geomarker Assessment for Multi-Site Studies
+
+## ⚙️ Software
+
+```{r echo = F, results = "asis"}
+map_chr(repos$r_packages, make_repo_md) |>
+  cat(sep = "\n\n")
+```
+
+## 📁 Data
+
+```{r echo = F, results = "asis"}
+map_chr(repos$data, make_repo_md) |>
+  cat(sep = "\n\n")
+```
