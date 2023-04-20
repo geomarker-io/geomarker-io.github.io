@@ -1,8 +1,9 @@
 ---
 output: github_document
+name: ""
 ---
 
-# geomarker.io <img src='geomarker_io_logo.svg' align="right" height="148.5" /></a>
+# geomarker.io <img src='geomarker_io_logo.svg' align="right" height="148.5" />
 
 ```{r echo = F, message = F, warning = F}
 library(dplyr)
