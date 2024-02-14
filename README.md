@@ -52,9 +52,6 @@ Hamilton County Drive Time to CCHMC
 [`hamilton_traffic`](https://geomarker.io/hamilton_traffic/): Hamilton
 County Parcel and Household Traffic
 
-[`hamilton_crime_risk`](http://geomarker.io/hamilton_crime_risk/):
-Hamilton County Crime Risk
-
 [`hamilton_property_code_enforcement`](http://geomarker.io/hamilton_property_code_enforcement/):
 Hamilton County Property Code Enforcement
 
