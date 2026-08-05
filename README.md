@@ -24,7 +24,7 @@
     <div class="project-copy">
       <p class="project-type">R package</p>
       <div class="project-title"><h2>geomarker</h2><span class="project-arrow" aria-hidden="true">&#8599;</span></div>
-      <p class="project-description">Assess locations with geomarkers in a consistent R workflow.</p>
+      <p class="project-description">Connect locations and dates to consistent, reproducible environmental and community data in R.</p>
     </div>
   </a>
   <a class="project-card" href="https://geomarker.io/codec/">
