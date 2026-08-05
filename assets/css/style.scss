@@ -110,7 +110,7 @@ body {
   padding: 30px;
   overflow: hidden;
   color: var(--ink);
-  background: rgba(246, 237, 222, 0.5);
+  background: var(--paper);
   border: 1px solid var(--line);
   border-radius: 22px;
   box-shadow: 0 8px 26px rgba(41, 75, 93, 0.045);
@@ -146,10 +146,12 @@ body {
   outline-offset: 4px;
 }
 
-.project-logo {
+.project-logo,
+.markdown-body .project-logo {
   display: block;
   width: 142px;
   height: 142px;
+  background-color: transparent;
   object-fit: contain;
   transition: transform 170ms ease;
 }
