@@ -1,18 +1,39 @@
+<header class="site-header">
+  <h1>geomarker.io: tools for place-based data</h1>
+  <p>Open-source tools that connect addresses and locations to analysis-ready environmental and community data.</p>
+</header>
+
 <main class="project-grid" aria-label="geomarker projects">
   <a class="project-card" href="https://geomarker.io/appc/">
-    <img class="project-logo" src="/assets/appc-hex.svg" alt="" width="190" height="190">
-    <span class="project-name">appc</span>
+    <img class="project-logo" src="/assets/appc-hex.svg" alt="" width="142" height="142">
+    <div class="project-copy">
+      <p class="project-type">R package</p>
+      <div class="project-title"><h2>appc</h2><span class="project-arrow" aria-hidden="true">&#8599;</span></div>
+      <p class="project-description">Daily, high-resolution, near-real-time ambient air pollution exposure assessments.</p>
+    </div>
   </a>
   <a class="project-card" href="https://geomarker.io/addr/">
-    <img class="project-logo" src="/assets/addr-hex.svg" alt="" width="190" height="190">
-    <span class="project-name">addr</span>
+    <img class="project-logo" src="/assets/addr-hex.svg" alt="" width="142" height="142">
+    <div class="project-copy">
+      <p class="project-type">R package + CLI</p>
+      <div class="project-title"><h2>addr</h2><span class="project-arrow" aria-hidden="true">&#8599;</span></div>
+      <p class="project-description">Clean, parse, harmonize, match, and geocode messy real-world US addresses.</p>
+    </div>
   </a>
   <a class="project-card" href="https://github.com/geomarker-io/geomarker">
-    <img class="project-logo project-logo--mark" src="/geomarker-io-avatar.svg" alt="" width="160" height="160">
-    <span class="project-name">geomarker</span>
+    <img class="project-logo project-logo--mark" src="/geomarker-io-avatar.svg" alt="" width="116" height="116">
+    <div class="project-copy">
+      <p class="project-type">R package</p>
+      <div class="project-title"><h2>geomarker</h2><span class="project-arrow" aria-hidden="true">&#8599;</span></div>
+      <p class="project-description">Assess locations with geomarkers in a consistent R workflow.</p>
+    </div>
   </a>
   <a class="project-card" href="https://geomarker.io/codec/">
-    <img class="project-logo" src="/assets/codec-hex.svg" alt="" width="190" height="190">
-    <span class="project-name">codec</span>
+    <img class="project-logo" src="/assets/codec-hex.svg" alt="" width="142" height="142">
+    <div class="project-copy">
+      <p class="project-type">Data explorer</p>
+      <div class="project-title"><h2>codec</h2><span class="project-arrow" aria-hidden="true">&#8599;</span></div>
+      <p class="project-description">Explore community data for Cincinnati in one interactive place.</p>
+    </div>
   </a>
 </main>
