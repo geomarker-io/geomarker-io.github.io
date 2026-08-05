@@ -1,5 +1,5 @@
 <header class="site-header">
-  <h1>geomarker.io: tools for place-based data</h1>
+  <h1><strong>geomarker.io</strong><span>tools for place-based data</span></h1>
 </header>
 
 <main class="project-grid" aria-label="geomarker projects">
