@@ -10,7 +10,6 @@
   --blue-light: #8cb4c3;
   --coral: #e49865;
   --paper: #f6edde;
-  --card: #fffdf8;
   --line: rgba(57, 97, 117, 0.2);
   --shadow: 0 18px 48px rgba(41, 75, 93, 0.11);
 }
@@ -66,24 +65,16 @@ body {
 }
 
 .site-header {
-  padding: 72px 0 44px;
-  border-bottom: 1px solid var(--line);
+  padding: 72px 0 24px;
 }
 
 .markdown-body .site-header h1 {
   max-width: 820px;
-  margin-bottom: 16px;
+  margin-bottom: 0;
   font-size: clamp(2.25rem, 5vw, 4rem);
   font-weight: 750;
   letter-spacing: -0.05em;
   line-height: 1.02;
-}
-
-.markdown-body .site-header p {
-  max-width: 720px;
-  margin-bottom: 0;
-  color: var(--blue);
-  font-size: clamp(1.05rem, 2vw, 1.22rem);
 }
 
 .project-grid {
@@ -104,7 +95,7 @@ body {
   padding: 30px;
   overflow: hidden;
   color: var(--ink);
-  background: rgba(255, 253, 248, 0.84);
+  background: rgba(246, 237, 222, 0.5);
   border: 1px solid var(--line);
   border-radius: 22px;
   box-shadow: 0 8px 26px rgba(41, 75, 93, 0.045);
@@ -221,7 +212,7 @@ body {
   }
 
   .site-header {
-    padding: 46px 0 32px;
+    padding: 46px 0 14px;
   }
 
   .project-grid {

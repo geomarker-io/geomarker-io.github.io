@@ -1,6 +1,5 @@
 <header class="site-header">
-  <h1>geomarker.io: tools for place-based data</h1>
-  <p>Open-source tools that connect addresses and locations to analysis-ready environmental and community data.</p>
+  <h1>tools for place-based data</h1>
 </header>
 
 <main class="project-grid" aria-label="geomarker projects">
