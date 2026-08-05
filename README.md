@@ -14,7 +14,7 @@
   <a class="project-card" href="https://geomarker.io/addr/">
     <img class="project-logo" src="/assets/addr-hex.svg" alt="" width="142" height="142">
     <div class="project-copy">
-      <p class="project-type">R package + CLI</p>
+      <p class="project-type">R package + CLI + container image</p>
       <div class="project-title"><h2>addr</h2><span class="project-arrow" aria-hidden="true">&#8599;</span></div>
       <p class="project-description">Clean, parse, harmonize, match, and geocode messy real-world US addresses.</p>
     </div>
@@ -30,7 +30,7 @@
   <a class="project-card" href="https://geomarker.io/codec/">
     <img class="project-logo" src="/assets/codec-hex.svg" alt="" width="142" height="142">
     <div class="project-copy">
-      <p class="project-type">Data explorer</p>
+      <p class="project-type">R package + data explorer</p>
       <div class="project-title"><h2>codec</h2><span class="project-arrow" aria-hidden="true">&#8599;</span></div>
       <p class="project-description">Explore community data for Cincinnati in one interactive place.</p>
     </div>
